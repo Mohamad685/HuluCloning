@@ -41,7 +41,7 @@ header{
     border: 0cap;
     color: rgb(144, 144, 144);
     cursor:auto;
-    font-family: "Graphik Web","Graphik", sans-serif;
+    font-family:  Graphik Web,Graphik,sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 1;
@@ -75,14 +75,14 @@ header{
 .bundle-head{
     padding-bottom: 8px;
     color: rgb(28, 231, 131);
-    font-family: "Graphik Web","Graphik",sans-serif;
+    font-family: Graphik Web,Graphik,sans-serif;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: .6px;
     
 }
 .bundle-offer{
-    font-family: "Graphik Web","Graphik", sans-serif;
+    font-family:  Graphik Web,Graphik,sans-serif;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 0px;
@@ -99,7 +99,7 @@ header{
     width:100%;
     height:2.5rem;
     background-color: rgb(28, 231, 131);
-    font-family: "Graphik Web","Graphik",sans-serif;
+    font-family: Graphik Web,Graphik,sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 1;
@@ -132,13 +132,13 @@ header{
     font-weight: 600;
     line-height: 1.32;
     text-align: center;
-    font-family: "Graphik Web","Graphik",sans-serif;
+    font-family: Graphik Web,Graphik,sans-serif;
     margin-bottom: 1.5rem;
     
 }
 
 .greenbox-button{
-    font-family: "Graphik Web","Graphik",sans-serif;
+    font-family: Graphik Web,Graphik,sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 1;
@@ -172,12 +172,12 @@ header{
     text-align: center;
     margin-left: 15%;
     padding: 50px;
-    font-family: "Graphik Web","Graphik",sans-serif;
+    font-family: Graphik Web,Graphik,sans-serif;
 }
 
 
 .library-slogan{
-    font-family: "Graphik Web","Graphik",sans-serif;
+    font-family: Graphik Web,Graphik,sans-serif;
     font-size: 32px;
     font-weight: 600;
     line-height: 1.2;
@@ -186,7 +186,7 @@ header{
 }
 
 .library-explanation{
-    font-family: "Graphik Web","Graphik",sans-serif;
+    font-family: Graphik Web,Graphik,sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.36;
@@ -217,7 +217,28 @@ header{
 }
 .adv-line1{
     font-size: 14px;
+    padding-bottom: 2px;
 }
 .adv-exp{
     font-size: 18px;
+}
+.adv-button{
+    margin: 1.4rem;
+    width: 26%;
+    height: 3rem;
+}
+.adv-note{
+    font-family: Graphik Web,Graphik,sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1 ;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    color: hsla(0,0%,100%,.6);
+}
+.view-channels{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
 }
