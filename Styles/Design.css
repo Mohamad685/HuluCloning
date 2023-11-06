@@ -166,7 +166,6 @@ header{
 .library-header{
     width:70%;
     height: 10rem;
-    background-color: transparent;
     position: absolute;
     align-self:inherit;
     text-align: center;
@@ -319,7 +318,7 @@ header{
 .news-logo{
     margin-top: 28rem;
     margin-left: 7.7rem;
-    height: 5rem;
+    height: 7rem;
     position: absolute;
     width: 20rem;
     padding: 1rem;
@@ -337,14 +336,100 @@ header{
     height: 100%;
     width: 100%;
     max-width: 88px;
-    max-height: 88px;
+    max-height: 95px;
     border-radius: 50%;
 }
 
 .news-note{
     margin-left: 7.7rem;
-    margin-top:33rem ;
+    margin-top:35rem ;
     margin-bottom: 0rem;
     position: absolute;
     padding: 1rem;
+}
+
+.black-box2{
+    height: 16rem;
+}
+
+.blackbox2-slogan{
+    margin-top: 5.5rem;
+    width: 100vw;
+    text-align: center;
+    font-size: 48px;
+}
+.blackbox2-explanation{
+    width: 50vw;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 18px;
+}
+.blackbox2-explanation2{
+    width: 50vw;
+    text-align: center;
+    margin-left: 25%;
+    font-weight: bolder;
+    padding-top: 0%;
+    font-size: 18px;
+}
+
+.table-design{
+    width: 80%;
+    color: white;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.head-style{
+    height: 10rem;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+.table-logo{
+    width: 80px;
+    height: 30px;
+}
+
+.bundle-indicator{
+    color: black;
+    background-color: #1ce783;
+    border: 1px transparent;
+    border-radius: 100px;
+    font-size: 9px;
+    padding: 7px 15px 5px;
+}
+.free-period{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.table-cell{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    box-sizing: inherit;
+    text-align: start;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    height: 5rem;
+    width: 23rem;
+}
+
+.table-cellprice{
+    text-align: center;
+}
+
+.table-tick{
+    text-align: center;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
 }
